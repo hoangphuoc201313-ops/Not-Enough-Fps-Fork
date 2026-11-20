@@ -13,10 +13,8 @@ commitTypedValue guards against an empty buffer before parsing (fix carried over
 Dependencies: Minecraft 1.21.1, Fabric Loader 0.18.3+, Fabric API 0.116.17+1.21.1, Sodium mc1.21.1-0.8.13+ (required).
 Build
 Requires JDK 21.
-
-text
-
 ./gradlew build
+
 Testing checklist
 Vanilla "Max Framerate" slider goes 1..1001 in steps of 1; 1001 shows as "Unlimited".
 FPS actually exceeds 260 with the limit raised.
